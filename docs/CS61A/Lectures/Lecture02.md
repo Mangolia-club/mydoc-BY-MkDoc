@@ -1,3 +1,4 @@
+[[Lectures]]
 
 2021.12.19
 
@@ -7,7 +8,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zYC7tKfKPtM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![](/CS61A.assets/6.png)
+![](/docs/CS61A.assets/6.png)
 
 Operand can also be none, like: f()
 
@@ -15,7 +16,7 @@ Operand can also be none, like: f()
 
 ## **Discussion Question 1**
 
-![](/CS61A.assets/7.png)
+![](/docs/CS61A.assets/7.png)
 
 The inside out:
 
@@ -29,7 +30,7 @@ The inside out:
 
 The answer is 3
 
-![](/CS61A.assets/8.png)
+![](/docs/CS61A.assets/8.png)
 
 ---
 
@@ -41,7 +42,7 @@ The answer is 3
 
 ## **Defining Functions**
 
-![](/CS61A.assets/10.png)
+![](/docs/CS61A.assets/10.png)
 
 这里很有意思的一点是把之前我认为没什么联系的赋值和函数联系起来了。
 

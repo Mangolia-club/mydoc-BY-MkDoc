@@ -1,10 +1,10 @@
-## **Lecture 1**
+[[Lectures]]
 
 2021.12.18
 
 ---
 
-### **About the course**
+## **About the course**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R--ROH7wOIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -12,7 +12,7 @@
 
 ---
 
-### **An Introduction to Computer Science**
+## **An Introduction to Computer Science**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CK4xrHi-IrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -31,15 +31,15 @@
 
 ---
 
-### **Exoressions**
+## **Expressions**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0P4kOL7pFFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### **Call expressions**
+### [[Call expressions]]
 
 **组成**
 
-![](/CS61A.assets/9.png)
+![](docs/CS61A.assets/9.png)
 
 is an expression that involves a function call.     [From CS61A Wiki.](https://www.ocf.berkeley.edu/~shidi/cs61a/wiki/Expression) 
 
@@ -49,16 +49,14 @@ add(mul(2, 3), 1)
 7
 ``` 
 
-??? steps
-    
-    1. evaluate operator of add \((\operatorname{mul}(2,3), 1)\) and find that it is function add
-    2. evaluate operand \(m u l(2,3)\)
-          1. evaluate operator \(m u l\) and find that it is function \(m u l\)
-          2. evaluate operand 2 (primitive)
-          3. evaluate operand 3 (primitive)
-          4. apply function \(m u\) to 2 and 3 , returns 6
-    3. evaluate operand 1 (primitive)
-    4. apply function add to 6 and 1 , returns 7
+1. evaluate operator of `add(mul(2, 3), 1)` and find that it is function add
+2. evaluate operand `mul(2, 3)`
+      1. evaluate operator `mul`and find that it is function $m u l$
+      2. evaluate operand 2 (primitive)
+      3. evaluate operand 3 (primitive)
+      4. apply function `mul` to 2 and 3 , returns 6
+3. evaluate operand 1 (primitive)
+4. apply function add to 6 and 1 , returns 7
 
 >即调用add累加函数，以及mul累乘函数，作用是将输入的参数依次做加和或者乘积，a sinple function right?
 
@@ -68,7 +66,9 @@ add(mul(2, 3), 1)
 2. Apply the function that is the value of the operator subexpression to the arguments that are the values of the operand subexpression
 
 **According to the evaluate procedure, evaluate nested expressions**
-![](/CS61A.assets\3.png)
+
+调用树（表达树）
+![](docs/CS61A.assets/3.png)
 
 ---
 

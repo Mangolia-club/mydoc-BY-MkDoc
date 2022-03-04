@@ -1,3 +1,5 @@
+[[Labs]]
+
 ### Lab 00: Getting Started
 
 [link](https://inst.eecs.berkeley.edu/~cs61a/su20/lab/lab00/)
@@ -23,7 +25,7 @@ CS61A有一个自动测试软件叫[okpy](okpy.org)专为本课开发，杜绝�
 
 cd到文件所在目录，之后用`python3 ok`
 
-但是我的没有反应，应该是因为我安装的python是anaconda环境？换成python ok就可以了
+但是我的没有反应，应该是因为我安装的python是anaconda环境？换成`python ok`就可以了
 
 由于是自学没有伯克利的邮箱也自然没有enroll到课程里去，但是这并不影响我们使用ok
 
@@ -31,6 +33,6 @@ cd到文件所在目录，之后用`python3 ok`
 
 **提交成功**
 
-![](/CS61A.assets/5.png)
+![](docs/CS61A.assets/5.png)
 
 ---
